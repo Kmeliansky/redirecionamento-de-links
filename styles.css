@@ -1,0 +1,88 @@
+/*Configurações da pagina*/
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*-----------------------*/
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(56deg, rgba(0,0,0,1) 0%, rgba(72,72,72,1) 100%);
+    background-size: cover;
+}
+.container{
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50px;
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*configuração dos botoes*/
+
+.btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgb(255, 255, 255);            
+   box-shadow: 0 0 20px rgb(32, 32, 32);
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:575px) {
+    header h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+    }
+}
